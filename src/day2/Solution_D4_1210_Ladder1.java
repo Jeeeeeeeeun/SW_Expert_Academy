@@ -3,7 +3,7 @@ package day2;
 import java.io.FileInputStream;
 import java.util.Scanner;
 
-public class Solution_D3_1210_Ladder1 {
+public class Solution_D4_1210_Ladder1 {
 	// 좌, 우, 상
 //	static int[] dx = { 0, 0, -1 };
 //	static int[] dy = { -1, 1, 0 };
