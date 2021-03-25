@@ -27,10 +27,9 @@ public class Solution_3307_D3_최장증가부분수열 {
 					if (arr[j] < arr[i] && LIS[i] < LIS[j] + 1) {
 						LIS[i] = LIS[j] + 1;
 					}
-
-					if (LIS[i] > max)
-						max = LIS[i];
 				}
+				if (LIS[i] > max)
+					max = LIS[i];
 			}
 
 			System.out.println("#" + test_case + " " + max);
