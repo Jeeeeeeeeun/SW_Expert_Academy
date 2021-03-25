@@ -39,7 +39,7 @@ public class Solution_1952_수영장 {
 
 			// 3달 계산
 			for (int i = 3; i <= 12; i++) {
-				min[i] = Math.min(min[i - 1] + minMonth[i], min[i - 3] + month3); // 최소비용+한달 vs 3달전까지 최소비용+3달
+				min[i] = Math.min(min[i - 1] + minMonth[i], min[i - 3] + month3); // 전달까지 최소비용+이번달 비용 vs 3달전까지 최소비용+3달
 			}
 
 			int answer = Math.min(min[12], year);
